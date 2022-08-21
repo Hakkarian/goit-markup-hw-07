@@ -19,7 +19,7 @@ html {
 }
 
 .all-body {
-    padding-top: 80px;
+    padding-top: 60px;
     margin: 0 auto;
     font-family: 'Roboto';
     font-style: normal;
@@ -28,9 +28,13 @@ html {
     letter-spacing: 0.03em;
     background-color: $hero__button;
 
+    @media screen and (min-width: 1140px) {
+        padding-top: 80px;
+    }
+
 }
 .container {
-    width: 1200px;
+    width: 480px;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
@@ -53,8 +57,15 @@ p,
 ul {
     margin: 0px;
     padding-left: 0px;
+    list-style: none;
 }
 
 .link {
     text-decoration: none;
+}
+a {
+    text-decoration: none;
+}
+address {
+    font-style: normal;
 }

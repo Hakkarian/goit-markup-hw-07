@@ -29,8 +29,7 @@
             <nav class="page-nav">
                 <a href="/" class="logo">
                     Web<span class="logo__accent">Studio</span>
-                </a>
-        
+                </a>      
                 <ul class="page__list">
                     <li class="page__element"><a class="page__link current" href="./index.html">Studio</a></li>
                     <li class="page__element"><a class="page__link" href="./portfolio.html">Portfolio</a></li>
@@ -52,6 +51,12 @@
                     </li>
         
                 </ul>
+                <button type="button" class="navigation" data-menu-button>
+                    <svg class="navigation__icon" width="40" height="40" aria-label="mobile menu switcher">
+                        <use class="icon-menu" href="./images/icons.svg#nav-menu"></use>
+                        <use class="icon-cross" href="./images/icons.svg#nav-close"></use>
+                    </svg>
+                </button>
         </div>
     </header>
 
@@ -168,7 +173,7 @@
                         <li class="command-list__element">
                             <a class="command-list__link" href="">
                                 <div class="command-list__frame">
-                                    <img class="command-list__frame-img" src="images/person1.jpg" alt="Игор Демьяненко" width="270" />
+                                    <img class="command-list__frame-img" src="images/mobperson1.jpg" alt="Игор Демьяненко" width="450" />
                                     <div class="command-list__frame-box">
                                         <h3 class="command-list__frame-worker">Christophet Walker</h3>
                                         <p class="command-list__frame-p">Product designer</p>
@@ -209,7 +214,7 @@
                         <li class="command-list__element">
                             <a class="command-list__link" href="">
                                 <div class="command-list__frame">
-                                    <img class="command-list__frame-img" src="images/person2.jpg" alt="Ольга Репина" width="270" />
+                                    <img class="command-list__frame-img" src="images/mobperson2.jpg" alt="Ольга Репина" width="450" />
                                     <div class="command-list__frame-box">
                                         <h3 class="command-list__frame-worker">Kylie Evans</h3>
                                         <p class="command-list__frame-p">Frontend developer</p>
@@ -250,7 +255,7 @@
                         <li class="command-list__element">
                             <a class="command-list__link" href="">
                                 <div class="command-list__frame">
-                                    <img class="command-list__frame-img" src="images/person3.jpg" alt="Николай Тарасов" width="270" />
+                                    <img class="command-list__frame-img" src="images/mobperson3.jpg" alt="Николай Тарасов" width="450" />
                                     <div class="command-list__frame-box">
                                         <h3 class="command-list__frame-worker">Ryan Harris</h3>
                                         <p class="command-list__frame-p">Marketing</p>
@@ -291,7 +296,7 @@
                         <li class="command-list__element">
                             <a class="command-list__link" href="">
                                 <div class="command-list__frame">
-                                    <img class="command-list__frame-img" src="images/person4.jpg" alt="Михаил Ермаков" width="270" />
+                                    <img class="command-list__frame-img" src="images/mobperson4.jpg" alt="Михаил Ермаков" width="450" />
                                     <div class="command-list__frame-box">
                                         <h3 class="command-list__frame-worker">Tyler Moore</h3>
                                         <p class="command-list__frame-p">UI designer</p>
@@ -334,53 +339,55 @@
             </div>
         </section>
         <section class="clients">
-            <h2 class="clients__title" data-aos="fade-up">
-                Regular customers
-            </h2>
-            <ul class="clients-list">
-                <li class="clients-list__element">
-                    <a class="clients-list__link" href="/">
-                        <svg class="clients-list__icon" width="106" height="60">
-                            <use href="./images/icons.svg#acompany"></use>
-                        </svg>
-                    </a>
-                </li>
-                <li class="clients-list__element">
-                    <a class="clients-list__link" href="/">
-                        <svg class="clients-list__icon" width="106" height="60">
-                            <use href="./images/icons.svg#bcompany"></use>
-                        </svg>
-                    </a>
-                </li>
-                <li class="clients-list__element">
-                    <a class="clients-list__link" href="/">
-                        <svg class="clients-list__icon" width="106" height="60">
-                            <use href="./images/icons.svg#ccompany"></use>
-                        </svg>
-                    </a>
-                </li>
-                <li class="clients-list__element">
-                    <a class="clients-list__link" href="/">
-                        <svg class="clients-list__icon" width="106" height="60">
-                            <use href="./images/icons.svg#dcompany"></use>
-                        </svg>
-                    </a>
-                </li>
-                <li class="clients-list__element">
-                    <a class="clients-list__link" href="/">
-                        <svg class="clients-list__icon" width="106" height="60">
-                            <use href="./images/icons.svg#ecompany"></use>
-                        </svg>
-                    </a>
-                </li>
-                <li class="clients-list__element">
-                    <a class="clients-list__link" href="/">
-                        <svg class="clients-list__icon" width="106" height="60">
-                            <use href="./images/icons.svg#gcompany"></use>
-                        </svg>
-                    </a>
-                </li>
-            </ul>
+            <div class="container">
+                <h2 class="clients__title" data-aos="fade-up">
+                    Regular customers
+                </h2>
+                <ul class="clients-list">
+                    <li class="clients-list__element">
+                        <a class="clients-list__link" href="/">
+                            <svg class="clients-list__icon" width="106" height="60">
+                                <use href="./images/icons.svg#acompany"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="clients-list__element">
+                        <a class="clients-list__link" href="/">
+                            <svg class="clients-list__icon" width="106" height="60">
+                                <use href="./images/icons.svg#bcompany"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="clients-list__element">
+                        <a class="clients-list__link" href="/">
+                            <svg class="clients-list__icon" width="106" height="60">
+                                <use href="./images/icons.svg#ccompany"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="clients-list__element">
+                        <a class="clients-list__link" href="/">
+                            <svg class="clients-list__icon" width="106" height="60">
+                                <use href="./images/icons.svg#dcompany"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="clients-list__element">
+                        <a class="clients-list__link" href="/">
+                            <svg class="clients-list__icon" width="106" height="60">
+                                <use href="./images/icons.svg#ecompany"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="clients-list__element">
+                        <a class="clients-list__link" href="/">
+                            <svg class="clients-list__icon" width="106" height="60">
+                                <use href="./images/icons.svg#gcompany"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </section>
     </main>
 
@@ -442,12 +449,14 @@
                             </li>
                         </ul>
                 </div>
-                <div class="footer-box">
-                            <p class="footer-box__input-title" for="footer-email">Subscribe to our newsletter</label>
+                <div class="footer-form">
+                            <p class="footer-form__input-title" for="footer-email">Subscribe to our newsletter</label>
                             
-                            <form class="footer-box__form">
-                            <input class="footer-box__input-email" id="footer-email" type="email" name="email" placeholder="E-mail">                    
-                            <button class="footer-box__button" type="submit">Subscribe</button>
+                            <form class="footer-form__form">
+                                <input class="footer-form__input-email" id="footer-email" type="email" name="email" placeholder="E-mail">                    
+                                <div class="footer-form__button-wrap">
+                                    <button class="footer-form__button" type="submit">Subscribe</button>
+                                </div>
                             </form>
                 </div>
             </div>
@@ -511,7 +520,7 @@
         </div>
     </div>
     </div>
-           
+    <script src="./menu.js"></script>       
     <script>
     (() => {
         const refs = {
@@ -536,5 +545,21 @@
     <script>
         AOS.init();
     </script>
+    <script>(() => {
+        const menuBtnRef = document.querySelector("[data-menu-button]");
+        //const mobileMenuRef = document.querySelector("[data-menu]");
+      
+        menuBtnRef.addEventListener("click", () => {
+          //const expanded =
+            //menuBtnRef.getAttribute("aria-expanded") === "true" || false;
+      
+          menuBtnRef.classList.toggle("is-open");
+          //menuBtnRef.setAttribute("aria-expanded", !expanded);
+      
+          //mobileMenuRef.classList.toggle("is-open");
+        });
+      })();
+      
+      </script>
 </body>
 </html>

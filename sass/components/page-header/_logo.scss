@@ -1,18 +1,29 @@
 .logo {
+    display: flex;
+    align-items: center;
 
 
-    font-family: 'Raleway';
-    font-style: normal;
+
     font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    text-decoration: none;
+    font-size: 24px;
+    line-height: 1.16;
+    
     color: $accent-color;
+
+    @media screen and (min-width: 1140px) {
+        margin-top: 24px;
+        margin-bottom: 25px;
+
+        font-size: 26px;
+        line-height: 1.19;
+    }
 }
 
 .logo__accent {
-    margin-top: 24px;
-    margin-bottom: 25px;
+
+
+    margin-top: 16px;
+    margin-bottom: 16px;
 
     font-family: 'Raleway', sans-serif;
     font-style: normal;
@@ -20,5 +31,9 @@
     font-size: 26px;
     line-height: 1.19;
     color: $title-text-color;
+    @media screen and (min-width: 1140px) {
+        margin-top: 24px;
+        margin-bottom: 25px
+    }
 
 }

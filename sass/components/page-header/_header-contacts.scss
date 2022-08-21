@@ -1,6 +1,7 @@
 .contacts {
+    display: none;
+    @media screen and (min-width: 1140px) {
     display: flex;
-
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-size: 14px;
@@ -8,6 +9,7 @@
     color: $title-text-color;
     text-decoration: none;
     list-style: none
+    }
 }
 .contacts__email {
     position: relative;

@@ -1,0 +1,34 @@
+
+.navigation {
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    color: $portfolio-text-button;
+
+    transition: color 250ms $cubic-bezier;
+
+    &:hover, &:focus {
+        color: $accent-color;
+    }
+}
+
+.navigation .icon-cross {
+    display: none;
+}
+.navigation.is-open .icon-cross {
+    display: block;
+}
+.navigation .icon-menu {
+    display: block;
+}
+.navigation.is-open .icon-menu {
+    display: none;
+}
+.icon-cross {
+    fill: currentColor;
+}
+.icon-menu {
+    fill: currentColor;
+}
