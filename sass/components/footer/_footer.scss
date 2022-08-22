@@ -14,7 +14,12 @@
     align-items: baseline;
 }
 }
-
+.footer-claster__connect {
+    @media screen and (min-width: 768px) {
+    display: flex;
+    justify-content: space-around;
+    }
+}
 .footer-claster__info {
     display: block
 }

@@ -1,5 +1,8 @@
 
 .navigation {
+    display: none;
+
+    @media screen and (max-width: 480px) {
     display: inline-flex;
     margin: 0;
     padding: 0;
@@ -9,8 +12,9 @@
 
     transition: color 250ms $cubic-bezier;
 
-    &:hover, &:focus {
-        color: $accent-color;
+        &:hover, &:focus {
+            color: $accent-color;
+        }
     }
 }
 
