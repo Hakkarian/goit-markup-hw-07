@@ -9,17 +9,27 @@
 
 .footer-claster {
 
-    @media screen and (min-width: 1140px) {
+    @media screen and (min-width: 1200px) {
     display: flex;
     align-items: baseline;
+    justify-content: space-between;
 }
 }
 .footer-claster__connect {
+
+
+    @media screen and (max-width: 767px) {
+        display: block;
+    }    
+
     @media screen and (min-width: 768px) {
-    display: flex;
-    justify-content: space-around;
+        display: flex;
+        align-items: baseline;
+        justify-content: space-around;
     }
 }
 .footer-claster__info {
-    display: block
+    @media screen and (min-width: 1200px) {
+
+    }
 }

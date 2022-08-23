@@ -22,6 +22,10 @@
     @media screen and (max-width: 767px) {
         display: none;
     }
+    @media screen and (min-width: 1140px) {
+        display: flex;
+        align-items: center;
+    }
 }
 
 

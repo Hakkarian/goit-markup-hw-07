@@ -4,10 +4,11 @@
     font-size: 14px;
     letter-spacing: 0.02em;
     color: $title-text-color;
-    margin-left: 50px;
+
     
-    @media screen and (min-width: 1140px) {
+    @media screen and (min-width: 1200px) {
         display: flex;
+        
     }
 
     @media screen and (max-width: 767px) {
@@ -27,7 +28,7 @@
         color: $accent-color;
     }
     
-    @media screen and (min-width: 1140px) {
+    @media screen and (min-width: 1200px) {
         padding-top: 32px;
         padding-bottom: 32px;
         &::after {
@@ -66,7 +67,8 @@
         color: $accent-color;
     }
 
-    @media screen and (min-width: 1140px) {
+    @media screen and (min-width: 1200px) {
+        margin-left: 50px;
         padding-top: 32px;
         padding-bottom: 32px;
         &::after {
